@@ -1,4 +1,4 @@
-const socket=io('https://your-server-domain');
+const socket=io('http://localhost:8080');
 
 const form=document.querySelector('#send-container');
 const messageInput=document.querySelector('.message-input');
